@@ -50,4 +50,6 @@ my_logger.Info("Number is: %i", number);
 ```
 For more info on formatting, see [here].
 
+It checks if a console window is already open, if not, it will create one.
+
 [here]: https://www.cplusplus.com/reference/cstdio/printf/
