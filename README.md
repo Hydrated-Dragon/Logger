@@ -7,6 +7,8 @@ A lightweight easy-to-use logging class with 4 different stages.
 
 How to integrate it into a project with ***Premake***
 -------
+Clone the repository with git into a folder of your choice.
+
 In your main **premake5.lua**, include it into your workspace and include it into your project:
 ```lua
 workspace "NameOfWorkspace"
