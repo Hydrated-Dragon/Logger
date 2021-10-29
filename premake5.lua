@@ -8,8 +8,8 @@ project "Logger"
 	objdir ("bin-int/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/%{prj.name}")
 
 	files {
-		"logger.h",
-		"logger.cpp",
+		"Logger.h",
+		"Logger.cpp",
 	}
 
 	filter "system:windows"
