@@ -4,8 +4,8 @@ project "Logger"
 	cppdialect "C++17"
 	staticruntime "off"
 
-	targetdir ("bin/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/%{prj.name}")
-	objdir ("bin/int/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/%{prj.name}")
+	targetdir ("bin/%{cfg.buildcfg}/%{cfg.system}/%{cfg.architecture}/%{prj.name}")
+	objdir ("bin/int/%{cfg.buildcfg}/%{cfg.system}/%{cfg.architecture}/%{prj.name}")
 
 	files {
 		"src/Logger.h",
